@@ -1,0 +1,183 @@
+.span9 {
+  width: 1023px;
+}
+.span8 {
+  width: 906px;
+}
+.span7 {
+  width: 789px;
+}
+.span6 {
+  width: 672px;
+}
+.span5 {
+  width: 555px;
+}
+.span4 {
+  width: 438px;
+}
+.span3 {
+  width: 321px;
+}
+.span2 {
+  width: 204px;
+}
+.span1 {
+  width: 87px;
+}
+
+.row-fluid .span9 {
+  width: 100%;
+  *width: 99.95112414467253%;
+}
+.row-fluid .span8 {
+  width: 88.56304985337243%;
+  *width: 88.51417399804497%;
+}
+.row-fluid .span7 {
+  width: 77.12609970674487%;
+  *width: 77.0772238514174%;
+}
+.row-fluid .span6 {
+  width: 65.6891495601173%;
+  *width: 65.64027370478983%;
+}
+.row-fluid .span5 {
+  width: 54.252199413489734%;
+  *width: 54.20332355816227%;
+}
+.row-fluid .span4 {
+  width: 42.81524926686217%;
+  *width: 42.7663734115347%;
+}
+.row-fluid .span3 {
+  width: 31.3782991202346%;
+  *width: 31.32942326490713%;
+}
+.row-fluid .span2 {
+  width: 19.941348973607038%;
+  *width: 19.892473118279568%;
+}
+.row-fluid .span1 {
+  width: 8.504398826979472%;
+  *width: 8.455522971652004%;
+}
+
+.table td.span1,
+.table th.span1 {
+  float: none;
+  width: 71px;
+  margin-left: 0;
+}
+.table td.span2,
+.table th.span2 {
+  float: none;
+  width: 188px;
+  margin-left: 0;
+}
+.table td.span3,
+.table th.span3 {
+  float: none;
+  width: 305px;
+  margin-left: 0;
+}
+.table td.span4,
+.table th.span4 {
+  float: none;
+  width: 422px;
+  margin-left: 0;
+}
+.table td.span5,
+.table th.span5 {
+  float: none;
+  width: 539px;
+  margin-left: 0;
+}
+.table td.span6,
+.table th.span6 {
+  float: none;
+  width: 656px;
+  margin-left: 0;
+}
+.table td.span7,
+.table th.span7 {
+  float: none;
+  width: 773px;
+  margin-left: 0;
+}
+.table td.span8,
+.table th.span8 {
+  float: none;
+  width: 890px;
+  margin-left: 0;
+}
+.table td.span9,
+.table th.span9 {
+  float: none;
+  width: 1007px;
+  margin-left: 0;
+}
+.table td.span10,
+.table th.span10 {
+  float: none;
+  width: 1124px;
+  margin-left: 0;
+}
+.table td.span11,
+.table th.span11 {
+  float: none;
+  width: 1241px;
+  margin-left: 0;
+}
+.table td.span12,
+.table th.span12 {
+  float: none;
+  width: 1358px;
+  margin-left: 0;
+}
+
+input.span9,
+textarea.span9,
+.uneditable-input.span9 {
+  width: 1009px;
+}
+input.span8,
+textarea.span8,
+.uneditable-input.span8 {
+  width: 892px;
+}
+input.span7,
+textarea.span7,
+.uneditable-input.span7 {
+  width: 775px;
+}
+input.span6,
+textarea.span6,
+.uneditable-input.span6 {
+  width: 658px;
+}
+input.span5,
+textarea.span5,
+.uneditable-input.span5 {
+  width: 541px;
+}
+input.span4,
+textarea.span4,
+.uneditable-input.span4 {
+  width: 424px;
+}
+input.span3,
+textarea.span3,
+.uneditable-input.span3 {
+  width: 307px;
+}
+input.span2,
+textarea.span2,
+.uneditable-input.span2 {
+  width: 190px;
+}
+input.span1,
+textarea.span1,
+.uneditable-input.span1 {
+  width: 73px;
+}

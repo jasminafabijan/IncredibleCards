@@ -1,0 +1,96 @@
+.container {
+  width: 1023px;
+}
+
+
+.container_padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header_top img.logo {
+  margin: 10px 0 0 30px;
+}
+
+.header_top .form-search {
+  margin-top: -40px;
+}
+
+.header_top .form-search input {
+  width: 165px;
+  height: 15px;
+  margin: -48px 0 0 470px;
+}
+
+.header_top .form-search i {
+ // background-image: url(../img/icon-search.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 40px -26px;
+}
+
+.header_top #searchsubmit{
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 0 48px -26px;
+}
+
+.header_top .main-nav ul {
+  margin: -70px 30px 0 0;
+}
+
+.header_top .main-nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.header_top .main-nav a {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #00aae3;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header_top .main-nav a:hover {
+  color: #898989;
+}
+
+.header_top .main-nav li img {
+  margin-top: -4px;
+}
+
+.homepage .header_top {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  height: 385px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #363636;
+}
+
+.sidebar-title:hover {
+  color: #898989;
+}
+
+.archive-header h1 {
+  font-size: 16px;
+}
+
+.page-header h1 {
+  font-size: 16px;
+}
+
+.btm-nav-div {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: -20px;
+  padding-right: 30px;
+}
+
