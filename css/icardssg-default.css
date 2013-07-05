@@ -185,6 +185,7 @@ a:hover {
   font-size: 18px;
   font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .homepage .sidebar ul {
@@ -209,7 +210,6 @@ a:hover {
 .homepage .sidebar input {
   width: 164px;
   height: 22px;
-  margin-top: 10px;
 }
 
 .homepage .sidebar a.btn-success {
