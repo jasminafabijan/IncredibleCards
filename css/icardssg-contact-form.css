@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.entry-content p {
+	line-height: 24px;
+}
+
 /*.proper_contact_form_wrap {max-width: 350px;}*/
 .proper_contact_form_wrap {max-width: 570px;}
 
@@ -8,7 +12,7 @@
 	
 	.proper_contact_form .form_field_wrap {padding: 6px 6px 6px 0; margin: 0 0 8px}
 	
-	.proper_contact_form label {display: block; font-weight: normal; margin: 0 0 4px}
+	.proper_contact_form label {display: block; font-weight: normal; margin: 0 0 4px; font-size: 14px; color: #333;}
 	
 	.proper_contact_form input[type=text], 
 	.proper_contact_form input[type=email], 
