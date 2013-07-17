@@ -6,7 +6,7 @@
 
 /*.proper_contact_form {padding: 12px; box-shadow: 0 1px 5px #aaa; border-radius: 6px; background: #f9f9f9;}*/
 	
-	.proper_contact_form .form_field_wrap {padding: 6px; margin: 0 0 8px}
+	.proper_contact_form .form_field_wrap {padding: 6px 6px 6px 0; margin: 0 0 8px}
 	
 	.proper_contact_form label {display: block; font-weight: normal; margin: 0 0 4px}
 	
