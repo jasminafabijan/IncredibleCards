@@ -616,10 +616,6 @@ tbody td.list {
   padding: 10px 6px;
 }
 
-tbody td.list ul {
-  margin-left: 20px;
-}
-
 tbody td.list li {
   line-height: 18px;
   margin-bottom: 6px;
