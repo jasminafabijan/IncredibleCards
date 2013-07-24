@@ -15,7 +15,7 @@
 
 /*.proper_contact_form {padding: 12px; box-shadow: 0 1px 5px #aaa; border-radius: 6px; background: #f9f9f9;}*/
 	
-	.proper_contact_form .form_field_wrap {padding: 6px 0; margin: 0 0 8px;}
+	.proper_contact_form .form_field_wrap {padding: 6px 0; margin: 0 0 2px;}
 	
 	.proper_contact_form label {display: block; font-weight: normal; margin: 0 0 4px; font-size: 14px; color: #333;}
 	
@@ -35,6 +35,11 @@
 		border-radius: 4px; 
 		padding: 4px 6px;
 		margin-bottom: 0px;
+		background-color: #ececec;
+  		-webkit-box-shadow: 0 3px 2px -2px #959595;
+  		-moz-box-shadow: 0 3px 2px -2px #959595;
+  		box-shadow: 0 3px 2px -2px #959595;
+  		height: 23px;
 	}
 
 	.proper_contact_form_wrap .comment {
@@ -47,7 +52,6 @@
 	
 	.proper_contact_form input[type=submit] {
 		  padding: 2px 8px 3px 8px;
-		  background-color: #00aae3;
 		  background-image: -webkit-linear-gradient(top, #45c1eb, #00aae3);
 		  background-image: -o-linear-gradient(top, #45c1eb, #00aae3);
 		  background-image: linear-gradient(to bottom, #45c1eb, #00aae3);
@@ -61,8 +65,9 @@
 		  font-size: 15px;
 		  font-family: Verdana, Geneva, sans-serif;
 		  color: #fff;
-			  float: right;
-		  margin: 10px 4px 0 0;
+			float: right;
+		  margin: 14px 4px 0 0;
+		  border-color: #45c1eb;
 	}
 	
 	
