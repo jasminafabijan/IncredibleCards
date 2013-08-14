@@ -3,6 +3,7 @@
 
 .entry-content p {
 	line-height: 24px;
+	margin-bottom: 0;
 }
 
 /*.proper_contact_form_wrap {max-width: 350px;}*/
@@ -17,24 +18,24 @@
 	
 	.proper_contact_form .form_field_wrap {padding: 6px 0; margin: 0 0 2px;}
 	
-	.proper_contact_form label {display: block; font-weight: normal; margin: 0 0 4px; font-size: 14px; color: #333;}
+	#contact-form-54 label {display: block; font-weight: normal; margin: 0 0 4px; font-size: 14px; color: #333;}
 	
-	.proper_contact_form input[type=text], 
-	.proper_contact_form input[type=email], 
-	.proper_contact_form input[type=url], 
-	.proper_contact_form textarea,
-	.proper_contact_form select {width: 255px; display: block; font-size: 14px; font-family: inherit}
+	#contact-form-54 input[type=text], 
+	#contact-form-54 input[type=email], 
+	#contact-form-54 input[type=url], 
+	#contact-form-54 textarea,
+	#contact-form-54 select {width: 255px; display: block; font-size: 14px; font-family: inherit}
 	
-	.proper_contact_form input[type=text], 
-	.proper_contact_form input[type=email], 
-	.proper_contact_form input[type=url], 
-	.proper_contact_form textarea {
+	#contact-form-54 input[type=text], 
+	#contact-form-54 input[type=email], 
+	#contact-form-54 input[type=url], 
+	#contact-form-54 textarea {
 		border: 1px #ccc solid;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px; 
 		border-radius: 4px; 
 		padding: 4px 6px;
-		margin-bottom: 0px;
+		margin-bottom: 12px;
 		background-color: #ececec;
   		-webkit-box-shadow: 0 3px 2px -2px #959595;
   		-moz-box-shadow: 0 3px 2px -2px #959595;
@@ -46,11 +47,16 @@
 	margin-left: 30px;
 	}
 	
-	.proper_contact_form textarea {
+	#contact-form-54 textarea {
 		height: 94px;
 	}
+
+	#contact-form-54 .cf2 {
+		float: right;
+		margin-top: -138px;
+	}
 	
-	.proper_contact_form input[type=submit] {
+	#contact-form-54 input[type=submit] {
 		  padding: 2px 8px 3px 8px;
 		  background-image: -webkit-linear-gradient(top, #45c1eb, #00aae3);
 		  background-image: -o-linear-gradient(top, #45c1eb, #00aae3);
@@ -65,7 +71,7 @@
 		  font-size: 15px;
 		  font-family: Verdana, Geneva, sans-serif;
 		  color: #fff;
-			float: right;
+		  float: right;
 		  margin: 14px 4px 0 0;
 		  border-color: #45c1eb;
 	}
@@ -76,7 +82,7 @@
 	
 	.proper_error_box h6 {font-size: 14px; font-weight: bold; margin: 0 0 6px;}
 	
-	.proper_contact_form .error input[type=text], 
-	.proper_contact_form .error input[type=email], 
-	.proper_contact_form .error input[type=url], 
-	.proper_contact_form .error textarea {border-color: red}
+	#contact-form-54 .error input[type=text], 
+	#contact-form-54 .error input[type=email], 
+	#contact-form-54 .error input[type=url], 
+	#contact-form-54 .error textarea {border-color: red}
