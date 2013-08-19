@@ -709,6 +709,7 @@ tbody .list button {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
   color: #363636;
+  margin-bottom: 10px;
 }
 
 .detail-page .name a {
@@ -820,6 +821,10 @@ tbody .list button {
   float: left;
   margin: 14px 0 0 58px;
   list-style: none;
+}
+
+.detail-page .content .benefits .span8 ul {
+  margin-left: 20px;
 }
 
 /*.detail-page .content li {
@@ -1048,7 +1053,7 @@ tbody .list button {
 
 .apply-btn {
   position: absolute;
-  top: 350px;
+  top: 342px;
 }
 
 #sfw-comments-title {
