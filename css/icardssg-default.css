@@ -1024,20 +1024,20 @@ tbody .list button {
 .ul_img_like{
   position:absolute;
   padding-left: -20px;
-  left: 166px;
+  left: 80px;
   z-index:1;
 }
 
 .ul_img_dislike{
   position:absolute;
   padding-left: -20px;
-  left: 250px;
+  left: 170px;
   z-index:1;
 }
 
 .rating {
   position:absolute;
-  margin: 4px 0 0 42px;
+  margin: 4px 0 0 70px;
   text-align: center;
   z-index:99;
 }
