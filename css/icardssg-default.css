@@ -63,7 +63,8 @@ a.btn-position{
 }
 
 a.btn-success,
-button.btn {
+button.btn,
+#respond .form-submit input[type="submit"] {
   padding: 2px 8px 4px 8px;
   background-color: #00aae3;
   background-image: -webkit-linear-gradient(top, #45c1eb, #00aae3);
@@ -82,12 +83,14 @@ button.btn {
 }
 
 a.btn-success:active,
-button.btn:active {
+button.btn:active,
+#respond .form-submit input[type="submit"]:active {
   background-color: #00aae3;
 }
 
 a.btn-success:hover,
-button.btn:hover {
+button.btn:hover,
+#respond .form-submit input[type="submit"]:hover {
   color: #ffffff;
   border-color: #45c1eb;
   background-position: 0px;
@@ -644,7 +647,7 @@ tbody .list button {
 
 .detail-page .content-container {
   background-color: #fff;
-  padding-bottom:100px;
+  padding-bottom: 50px;
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -1018,9 +1021,9 @@ tbody .list button {
   font-weight: normal;
 }
 
-.detail-page .add-comment .btn {
+#respond .form-submit input[type="submit"] {
   float: right;
-  margin: 10px -20px 0 0;
+  margin-right: 155px;
 }
 
 
