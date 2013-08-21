@@ -971,6 +971,14 @@ tbody .list button {
   margin: 15px 0 5px 0;
 }
 
+#respond form {
+  margin: 15px 0;
+}
+
+#respond p.comment-notes {
+  margin: 5px 0;
+}
+
 .detail-page .comments-area input,
 .detail-page .comments-area textarea {
   background-color: #ececec;
