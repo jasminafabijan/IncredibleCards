@@ -964,45 +964,57 @@ tbody .list button {
 .detail-page .add-comment .span3 {
   margin: 20px 0 0 0;
 }
+*/
 
-.detail-page .add-comment input,
-.detail-page .add-comment textarea,
-.contact-us .span6 input,
-.contact-us textarea {
+#respond h3#reply-title {
+  font-size: 24px;
+  margin: 15px 0 5px 0;
+}
+
+.detail-page .comments-area input,
+.detail-page .comments-area textarea {
   background-color: #ececec;
   -webkit-box-shadow: 0 3px 2px -2px #959595;
   -moz-box-shadow: 0 3px 2px -2px #959595;
   box-shadow: 0 3px 2px -2px #959595;
 }
 
-.detail-page .add-comment input {
-  width: 270px;
-  height: 23px;
+#respond form input[type="text"] {
+  width: 285px;
+  height: 33px;
+  padding: 4px 6px;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
-.detail-page .add-comment label {
-  font-size: 15px;
+#respond form p {
+  margin-bottom: 0;
 }
 
-.detail-page .add-comment em {
-  font-size: 12px;
-  color: #898989;
+#respond form p b {
+  display: block;
 }
 
-.detail-page .add-comment .text {
-  margin: 20px 0 0 0;
+#respond form textarea {
+  width: 490px;
+  height: 310px;
+  font-size: 14px;
 }
 
-.detail-page .add-comment textarea {
-  width: 474px;
-  height: 160px;
+#respond form p.comment-form-comment {
+  margin: -334px 0 0 320px;
+}
+
+#respond form.comment-form  b {
+  margin: 16px 0 6px 0;
+  font-weight: normal;
 }
 
 .detail-page .add-comment .btn {
   float: right;
   margin: 10px -20px 0 0;
 }
-*/
+
 
 .ul_like{
   padding-left: 0px;
