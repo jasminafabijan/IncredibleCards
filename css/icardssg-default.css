@@ -64,7 +64,8 @@ a.btn-position{
 
 a.btn-success,
 button.btn,
-#respond .form-submit input[type="submit"] {
+#respond .form-submit input[type="submit"],
+.homepage .sidebar input[type="submit"] {
   padding: 2px 8px 4px 8px;
   background-color: #00aae3;
   background-image: -webkit-linear-gradient(top, #45c1eb, #00aae3);
@@ -84,13 +85,15 @@ button.btn,
 
 a.btn-success:active,
 button.btn:active,
-#respond .form-submit input[type="submit"]:active {
+#respond .form-submit input[type="submit"]:active,
+.homepage .sidebar input[type="submit"]:active {
   background-color: #00aae3;
 }
 
 a.btn-success:hover,
 button.btn:hover,
-#respond .form-submit input[type="submit"]:hover {
+#respond .form-submit input[type="submit"]:hover,
+.homepage .sidebar input[type="submit"]:hover {
   color: #ffffff;
   border-color: #45c1eb;
   background-position: 0px;
@@ -210,10 +213,14 @@ a:hover {
   color: #898989;
 }
 
-.homepage .sidebar input {
-  width: 164px;
-  height: 22px;
-  margin-top: 4px;
+.homepage .sidebar input[type="text"] {
+  margin-top: 15px;
+  height: 24px
+}
+
+.homepage .sidebar input[type="submit"] {
+  height: 26px;
+  margin: 5px 0 0 82px;
 }
 
 .homepage .sidebar a.btn-success {
