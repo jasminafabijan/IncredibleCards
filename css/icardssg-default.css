@@ -912,20 +912,21 @@ tbody .list button {
 }
 
 .detail-page .comments .buttons {
-  margin-bottom: 20px;
+  margin-left: 14px;
 }
 
-.detail-page .comments .buttons img {
-  float: none;
-  margin-left: 30px;
+.detail-page .comments .ldc-ul_cont {
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.detail-page .comments .buttons img.unlike {
-  margin-left: 0px;
+.detail-page .comments .ldc-ul_cont span {
+  margin: 7px 0 0 -27px;
+  position: absolute;
+  font-weight: normal;
 }
 
 .detail-page .comments span {
-  //display: block;
   color: #363636;
 }
 
