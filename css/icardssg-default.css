@@ -579,7 +579,7 @@ table.comparison-box thead .constant a:hover {
   border-top-left-radius: 0px;
 }
 
-.comparison-box tbody {
+.homepage .modal-body {
   background-color: rgba(99, 99, 99, 0.95);
 }
 
