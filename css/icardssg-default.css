@@ -470,7 +470,7 @@ a:hover {
 
 .homepage .modal .btn-primary {
   float: right;
-  margin: 12px 20px -10px 0;
+  margin: 20px 20px -10px 0;
 }
 
 /* Comparison box */
@@ -580,7 +580,7 @@ table.comparison-box thead .constant a:hover {
 }
 
 .homepage .modal-body {
-  background-color: rgba(99, 99, 99, 0.95);
+  background-color: rgb(99, 99, 99);
 }
 
 tbody td.data {
