@@ -500,7 +500,6 @@ table.comparison-box td {
 }
 
 table.comparison-box thead td {
-  display: inline-block;
   -moz-margin-end: -3px;
 }
 
