@@ -923,6 +923,7 @@ tbody .list button {
 .detail-page .comments .ldc-ul_cont {
   background-color: transparent;
   border-color: transparent;
+  background-image: none;
 }
 
 .detail-page .comments .ldc-ul_cont span {
