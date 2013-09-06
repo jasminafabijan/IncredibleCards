@@ -483,6 +483,10 @@ a:hover {
   margin-top: -5px;
 }
 
+.comparison-box td.select .test img {
+  position: relative;
+}
+
 table.comparison-box tr.cards {
   border-top: none;
 }
@@ -540,15 +544,15 @@ table.comparison-box thead .constant a:hover {
   width: 120px;
   height: 74px;
   position: absolute;
-  margin-top: -84px;
+  margin-top: -100px;
   margin-left: 8px;
+  top: -22px;
 }
 
 .comparison-box .select span.card-name {
   display: block;
   color: #fff;
   font-size: 13px;
-  margin-top: 8px;
   text-align: center;
   line-height: 18px;
   width: 136px;
