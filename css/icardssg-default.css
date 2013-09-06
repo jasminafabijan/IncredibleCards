@@ -669,20 +669,22 @@ tbody .list button {
 .detail-page .row .image {
   width: 240px;
   margin: 50px 0 0 30px;
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .detail-page img.img-rounded {
   position: absolute;
   width: 240px;
   height: 150px;
-  margin-top: -170px;
-  z-index:9;
+  margin-left: -240px;
 }
 
 .detail-page img.shadow {
   position: relative;
-  margin-top: 90px;
-  z-index:1;
+  margin-top: 102px;
+  width: 240px;
 }
 
 .detail-page .image .buttons {
