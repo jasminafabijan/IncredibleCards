@@ -400,7 +400,7 @@ a:hover {
 
 .modal-header .close {
   position: relative;
-  left: 995px;
+  left: 975px;
   float: none;
   font-size: 14px;
   font-weight: bold;
@@ -518,7 +518,7 @@ table.comparison-box td.constant {
 
 table.comparison-box thead td.constant {
   height: 103px;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 table.comparison-box thead .constant a {
