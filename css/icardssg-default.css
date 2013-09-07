@@ -560,10 +560,9 @@ table.comparison-box thead .constant a:hover {
 
 .comparison-box a.remove-card {
   color: #fff;
-  margin-right: -6px;
-  margin-bottom: -10px;
-  float: right;
-  position: relative;
+  position: absolute;
+  z-index: 1000;
+  margin: -7px 0 0 129px;
 }
 
 .homepage .table-bordered {
