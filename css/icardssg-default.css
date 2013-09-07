@@ -506,7 +506,6 @@ table.comparison-box thead td {
 table.comparison-box td:last-child {
   border-right: none;
   padding-right: 28px;
-  -moz-padding-end: 0px;
 }
 
 table.comparison-box td.constant {
