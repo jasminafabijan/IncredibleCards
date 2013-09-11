@@ -767,12 +767,6 @@ tbody .list button {
   max-width: none;
 }
 
-/*
-.detail-page .content img {
-  margin-left: 28px;
-  float: left;
-}
-*/
 .detail-icon {
   margin-left: 28px;
   float: left;
@@ -790,7 +784,6 @@ tbody .list button {
 .detail-page .content .reward h3,
 .detail-page .content .benefits h3 
 {
-  /*margin-left: 26px;*/
   margin: -40px  0  0 84px;
 }
 
@@ -840,13 +833,6 @@ tbody .list button {
   margin-left: 20px;
 }
 
-/*.detail-page .content li {
-  margin-left: 28px;
-  list-style-type:disc;
-  font-size: 20px;
-  color: #89c13d;
-}*/
-
 .detail-page .content .formatli li {
   position: relative;
   margin-left: 0px;
@@ -866,7 +852,6 @@ tbody .list button {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-
 
 .detail-page .content span {
   font-size: 16px;
