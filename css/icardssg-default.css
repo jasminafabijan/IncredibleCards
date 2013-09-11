@@ -655,7 +655,7 @@ tbody .list button {
 
 .detail-page .content-container {
   background-color: #fff;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -915,56 +915,58 @@ tbody .list button {
   font-weight: normal;
 }
 
-.detail-page .comments span {
+.detail-page .comments-area h2 {
+  margin-bottom: 30px;
+}
+
+.detail-page .commentlist .depth-1 article {
+   background-color: #cceef9;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  width: 790px;
+}
+
+.detail-page .commentlist .depth-1 .comment header {
+  margin-bottom: 10px;
+}
+
+.detail-page .commentlist .depth-1 .comment cite {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 70px;
+}
+
+.detail-page .commentlist .depth-1 .comment time {
   color: #363636;
+  font-style: italic;
+  margin-left: 70px;
 }
 
-.detail-page .comments em {
-  font-size: 12px;
-  padding-left: 10px;
+.detail-page .commentlist .depth-1 .comment section {
+  padding: 0;
 }
 
-.detail-page .comments span.comment {
-  padding-top: 10px;
-  font-size: 15px;
+.detail-page .commentlist .depth-1 .comment section p {
+  margin-bottom: 15px;
 }
 
-/*
-.detail-page .comments img.user {
-  margin-left: 0px;
-  margin-right: 30px;
+.detail-page .commentlist .depth-1 .children {
+  margin-left: 0;
 }
 
-.detail-page .comment-blue {
-  background-color: #cceef9;
+.detail-page .commentlist .depth-1 .children .depth-2 {
+  padding: 0;
+}
+
+.detail-page .commentlist .depth-1 .children .depth-2 .comment {
+   background-color: #ebebeb;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  padding: 10px;
-  margin-top: 10px;
 }
-
-.detail-page .comment-gray {
-  background-color: #ebebeb;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  padding: 10px;
-  margin-top: 10px;
-}
-
-.detail-page .add-comment {
-  margin: 40px 0 0 30px;
-}
-
-.detail-page .add-comment h3 {
-  margin-left: 0px;
-}
-
-.detail-page .add-comment .span3 {
-  margin: 20px 0 0 0;
-}
-*/
 
 #respond h3#reply-title {
   font-size: 24px;
@@ -972,11 +974,16 @@ tbody .list button {
 }
 
 #respond form {
-  margin: 15px 0;
+  margin: 15px 0 25px 0;
+  display: table;
+  content: "";
+  clear: both;
 }
 
 #respond p.comment-notes {
-  margin: 5px 0;
+  margin: 5px 0 10px 0;
+  font-style: italic;
+  font-size: 13px;
 }
 
 .detail-page .comments-area input,
@@ -1020,7 +1027,6 @@ tbody .list button {
 
 #respond .form-submit input[type="submit"] {
   float: right;
-  margin-right: 155px;
 }
 
 
