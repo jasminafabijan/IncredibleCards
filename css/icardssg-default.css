@@ -961,7 +961,7 @@ tbody .list button {
   padding: 0;
 }
 
-.detail-page .commentlist .depth-1 .children .depth-2 .comment {
+.detail-page .commentlist .depth-1 .children .depth-2 article {
    background-color: #ebebeb;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
