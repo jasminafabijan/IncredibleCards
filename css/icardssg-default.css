@@ -1006,23 +1006,32 @@ tbody .list button {
   margin-bottom: 0;
 }
 
+#respond p.comment-form-author {
+  margin-top: 25px;
+}
+
+#respond p.comment-form-url {
+  margin-bottom: 30px;
+}
+
 #respond form p b {
   display: block;
 }
 
 #respond form textarea {
   width: 490px;
-  height: 310px;
+  height: 302px;
   font-size: 14px;
 }
 
 #respond form p.comment-form-comment {
-  margin: -334px 0 0 320px;
+  margin: -356px 0 0 320px;
 }
 
 #respond form.comment-form  b {
-  margin: 16px 0 6px 0;
+  margin: 10px 0 8px 0;
   font-weight: normal;
+  font-size: 13px;
 }
 
 #respond .form-submit input[type="submit"] {
